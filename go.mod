@@ -1,6 +1,6 @@
 module crowdfunding
 
-go 1.21.5
+go 1.21
 
 require (
 	github.com/bytedance/sonic v1.10.2 // indirect
@@ -32,5 +32,6 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.32.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	gorm.io/driver/mysql v1.5.2
 	gorm.io/gorm v1.25.5 // indirect
 )
